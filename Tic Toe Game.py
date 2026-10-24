@@ -34,11 +34,15 @@ def play_game():
     player = "X"
 
     print("Welcome to Tic-Tac-Toe!")
-    print("Choose a square by entering a number from 1 to 9.")
+    print("Choose a square by entering a number from 1 to 9, or enter q to quit.")
 
     while True:
         print_board(board)
         choice = input(f"Player {player}, choose a square (1-9): ").strip()
+
+        if choice.lower() == "q":
+            print("Game ended.")
+            break
 
         if not choice.isdigit() or not 1 <= int(choice) <= 9:
             print("Please enter a number from 1 to 9.")
