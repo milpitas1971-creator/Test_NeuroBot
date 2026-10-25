@@ -1,5 +1,6 @@
 """Collect employee details and save them in a local SQLite database."""
 
+# file was created by copilot
 import math
 import sqlite3
 
