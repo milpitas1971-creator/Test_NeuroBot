@@ -1,0 +1,17 @@
+Weather for ZIP code 75093 (Plano, Texas)
+Date: October 25, 2026
+
+Current conditions (reported observation time: 1:15 AM):
+- Overcast
+- Temperature: 75 F; feels like 73 F
+- Humidity: 39%
+- Wind: ESE at 4 mph
+- Precipitation: 0.0 in reported
+- Visibility: 6 mi
+
+Today's forecast:
+- High: 79 F
+- Low: 65 F
+- Mostly overcast, with a low chance of rain (about 10-14% during the day)
+
+Source: https://wttr.in/75093?format=j1
